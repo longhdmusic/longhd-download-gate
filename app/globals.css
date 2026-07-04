@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&display=swap");
+@import "tailwindcss";
+:root{--bg:#050505;--fg:#fff}*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font-family:Arial,Helvetica,sans-serif}.glass{background:rgba(10,10,10,.68);backdrop-filter:blur(18px);border:1px solid rgba(255,255,255,.12);box-shadow:0 25px 80px rgba(0,0,0,.45)}.sc{background:#ff5500}.pulse{animation:pulse 1.5s infinite}@keyframes pulse{0%,100%{opacity:1}50%{opacity:.55}}
+
+
+.longhd-logo-text {
+  font-family: "Audiowide", sans-serif;
+  letter-spacing: 0.22em;
+  background: linear-gradient(180deg, #ffffff 20%, #bff6ff 60%, #5ee7ff 100%);
+  -webkit-background-clip: text;
+  color: transparent;
+  text-shadow:
+    0 0 8px rgba(255,255,255,0.7),
+    0 0 22px rgba(0,220,255,0.45);
+}
