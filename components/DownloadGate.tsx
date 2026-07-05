@@ -29,7 +29,7 @@ export default function DownloadGate({ track }: any) {
 
       if (time <= 0) {
         clearInterval(timer);
-        window.location.href = track.downloadUrl;
+        window.location.href = track.mediafire;
       }
     }, 1000);
   }
